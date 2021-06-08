@@ -1,0 +1,36 @@
+name: app_criptomoedas
+description: Simple cryptocurrency application
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  sqflite: ^1.1.1
+  path_provider:
+  cupertino_icons: ^0.1.2
+  dio: ^3.0.9
+  rxdart: ^0.22.0
+  flutter_cache_manager: 1.1.0
+  flutter_launcher_icons: 0.7.0
+  flutter_money_formatter: 0.8.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/images/icons/btc.png"
+  image_path_ios: "assets/images/icons/btc.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/icons/
